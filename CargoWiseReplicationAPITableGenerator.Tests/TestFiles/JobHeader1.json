@@ -1,0 +1,571 @@
+{
+  "apiVersion": "26.5.26.828",
+  "params": {
+    "schema_name": "dbo",
+    "table_name": "JobHeader",
+    "after_lsn": "0x00018E3400034D2E0003",
+    "page_size": "1"
+  },
+  "data": {
+    "currentItemCount": 1,
+    "itemsPerPage": 1,
+    "nextRequestParams": {
+      "after_lsn": "0x00018E34000366A50009",
+      "after_seqval": "0x00018E34000365D90002",
+      "after_command_id": 1,
+      "after_operation": 3
+    },
+    "items": [
+      {
+        "tableDefinitionSchemaVersion": "9320.41",
+        "schemaChangeCount": 1,
+        "primaryKeys": [
+          "JH_PK"
+        ],
+        "columns": [
+          {
+            "name": "JH_PK",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_JobNum",
+            "type": "varchar",
+            "length": 35,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_TH_NKQuoteNumber",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_Status",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_A_JOP",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_A_JCL",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_LocalChargesCFX",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 6,
+            "numericScale": 3
+          },
+          {
+            "name": "JH_AgentChargesCFX",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 6,
+            "numericScale": 3
+          },
+          {
+            "name": "JH_LocalClientInvoicingStyle",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_UniqueJobInvoiceNumber",
+            "type": "smallint",
+            "length": 2,
+            "numericPrecision": 5,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_PaymentCollectionStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_GB",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_GE",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_GC",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_SystemCreateTimeUtc",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_SystemCreateUser",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_SystemLastEditUser",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ProfitShareInvoice",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_JobPlannedStartDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_JobBufferPercentOverride",
+            "type": "tinyint",
+            "length": 1,
+            "numericPrecision": 3,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_OC_LocalBillingContact",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_RevenueRecognizedDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ParentID",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_JH_ParentJob",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ProfitLossReasonCode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_OA_LocalChargesAddr",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_OA_AgentCollectAddr",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_GS_NKRepSales",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_GS_NKRepOps",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_HeaderType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_Name",
+            "type": "varchar",
+            "length": 35,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_Description",
+            "type": "nvarchar",
+            "length": 256,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_JobLocalReference",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ARInvoiceReference",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_IsProfitSharePosted",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_SingleAgentsInvoicePerConsol",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_RatingHasBeenRun",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ExcludeFromPeriodicRating",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_IsValid",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ParentTableCode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_HoldReason",
+            "type": "nvarchar",
+            "length": 70,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_IsActive",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ClientContractNumber",
+            "type": "varchar",
+            "length": 50,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_GB_TaxBranch",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_Direction",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_IsDisbursement",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_ContainerMode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JH_TransportMode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          }
+        ],
+        "changes": [
+          {
+            "__$start_lsn": "0x00018E34000366A50009",
+            "__$seqval": "0x00018E34000365D90002",
+            "__$update_mask": "0x000000000008",
+            "__$lsn_period": 2608,
+            "__$command_id": 1,
+            "__$operation": 3,
+            "data": [
+              {
+                "columnName": "JH_PK",
+                "value": "666a86da-15fe-4dc6-a01e-7d89f6a38868"
+              },
+              {
+                "columnName": "JH_JobNum",
+                "value": "S00027975"
+              },
+              {
+                "columnName": "JH_TH_NKQuoteNumber",
+                "value": ""
+              },
+              {
+                "columnName": "JH_Status",
+                "value": "WRK"
+              },
+              {
+                "columnName": "JH_A_JOP",
+                "value": "08/12/2026 16:48:00"
+              },
+              {
+                "columnName": "JH_A_JCL",
+                "value": null
+              },
+              {
+                "columnName": "JH_LocalChargesCFX",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JH_AgentChargesCFX",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JH_LocalClientInvoicingStyle",
+                "value": ""
+              },
+              {
+                "columnName": "JH_UniqueJobInvoiceNumber",
+                "value": "0"
+              },
+              {
+                "columnName": "JH_PaymentCollectionStatus",
+                "value": ""
+              },
+              {
+                "columnName": "JH_GB",
+                "value": "b118b127-1d74-4fa5-a5c7-7746710109ee"
+              },
+              {
+                "columnName": "JH_GE",
+                "value": "8c3b5ba4-4012-406a-9810-7bd6a746e6b6"
+              },
+              {
+                "columnName": "JH_GC",
+                "value": "8de1da73-7219-4c8a-88ef-82ed091329b9"
+              },
+              {
+                "columnName": "JH_SystemCreateTimeUtc",
+                "value": "08/12/2026 20:51:00"
+              },
+              {
+                "columnName": "JH_SystemCreateUser",
+                "value": "JOS"
+              },
+              {
+                "columnName": "JH_SystemLastEditUser",
+                "value": "JOS"
+              },
+              {
+                "columnName": "JH_ProfitShareInvoice",
+                "value": null
+              },
+              {
+                "columnName": "JH_JobPlannedStartDate",
+                "value": null
+              },
+              {
+                "columnName": "JH_JobBufferPercentOverride",
+                "value": "0"
+              },
+              {
+                "columnName": "JH_OC_LocalBillingContact",
+                "value": null
+              },
+              {
+                "columnName": "JH_RevenueRecognizedDate",
+                "value": null
+              },
+              {
+                "columnName": "JH_ParentID",
+                "value": "c9503f25-c394-4c39-acda-cedade01e7af"
+              },
+              {
+                "columnName": "JH_JH_ParentJob",
+                "value": null
+              },
+              {
+                "columnName": "JH_ProfitLossReasonCode",
+                "value": ""
+              },
+              {
+                "columnName": "JH_OA_LocalChargesAddr",
+                "value": "653b3ea6-a0cc-46d5-b4fc-ddaeabe7fd87"
+              },
+              {
+                "columnName": "JH_OA_AgentCollectAddr",
+                "value": null
+              },
+              {
+                "columnName": "JH_GS_NKRepSales",
+                "value": "CLE"
+              },
+              {
+                "columnName": "JH_GS_NKRepOps",
+                "value": "JOS"
+              },
+              {
+                "columnName": "JH_HeaderType",
+                "value": "JOB"
+              },
+              {
+                "columnName": "JH_Name",
+                "value": ""
+              },
+              {
+                "columnName": "JH_Description",
+                "value": ""
+              },
+              {
+                "columnName": "JH_JobLocalReference",
+                "value": "00030011"
+              },
+              {
+                "columnName": "JH_ARInvoiceReference",
+                "value": ""
+              },
+              {
+                "columnName": "JH_IsProfitSharePosted",
+                "value": "False"
+              },
+              {
+                "columnName": "JH_SingleAgentsInvoicePerConsol",
+                "value": "True"
+              },
+              {
+                "columnName": "JH_RatingHasBeenRun",
+                "value": "False"
+              },
+              {
+                "columnName": "JH_ExcludeFromPeriodicRating",
+                "value": "False"
+              },
+              {
+                "columnName": "JH_IsValid",
+                "value": "True"
+              },
+              {
+                "columnName": "JH_ParentTableCode",
+                "value": "JS"
+              },
+              {
+                "columnName": "JH_HoldReason",
+                "value": ""
+              },
+              {
+                "columnName": "JH_IsActive",
+                "value": "True"
+              },
+              {
+                "columnName": "JH_ClientContractNumber",
+                "value": null
+              },
+              {
+                "columnName": "JH_GB_TaxBranch",
+                "value": null
+              },
+              {
+                "columnName": "JH_Direction",
+                "value": "IMP"
+              },
+              {
+                "columnName": "JH_IsDisbursement",
+                "value": "True"
+              },
+              {
+                "columnName": "JH_ContainerMode",
+                "value": "LTL"
+              },
+              {
+                "columnName": "JH_TransportMode",
+                "value": "ROA"
+              }
+            ]
+          }
+        ],
+        "max_lsn": "AAGRqgABIvoAAw=="
+      }
+    ]
+  }
+}

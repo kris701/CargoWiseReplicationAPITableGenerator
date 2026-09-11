@@ -1,0 +1,1308 @@
+{
+  "apiVersion": "26.5.26.828",
+  "params": {
+    "schema_name": "dbo",
+    "table_name": "GlbStaff",
+    "after_lsn": "0x00018E3400034D2E0003",
+    "page_size": "1"
+  },
+  "data": {
+    "currentItemCount": 1,
+    "itemsPerPage": 1,
+    "nextRequestParams": {
+      "after_lsn": "0x00018E35000091CB0001",
+      "after_seqval": "0x00018E3500009177000D",
+      "after_command_id": 1,
+      "after_operation": 3
+    },
+    "items": [
+      {
+        "tableDefinitionSchemaVersion": "8804.13",
+        "schemaChangeCount": 1,
+        "primaryKeys": [
+          "GS_PK"
+        ],
+        "columns": [
+          {
+            "name": "GS_PK",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_LoginName",
+            "type": "nvarchar",
+            "length": 208,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmploymentBasis",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NameTitle",
+            "type": "nvarchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NameSuffix",
+            "type": "nvarchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_UserAddress2",
+            "type": "nvarchar",
+            "length": 100,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WorkPhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WorkExtension",
+            "type": "varchar",
+            "length": 10,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_HomePhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_MobilePhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Pager",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_FaxNum",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Birthdate",
+            "type": "date",
+            "length": 3,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WagesBankName",
+            "type": "nvarchar",
+            "length": 70,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WagesBankAccount",
+            "type": "varchar",
+            "length": 35,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WagesBankBsb",
+            "type": "varchar",
+            "length": 15,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WagesBankSwift",
+            "type": "varchar",
+            "length": 35,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NextOfKin",
+            "type": "nvarchar",
+            "length": 100,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NextOfKinHomePhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NextOfKinWorkPhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmergencyContactName",
+            "type": "nvarchar",
+            "length": 100,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmergencyHomePhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmergencyWorkPhone",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmploymentDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_DepartureDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_DueBack",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_OutOnTask",
+            "type": "varchar",
+            "length": 50,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PersonalEDIMailBox",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_BrokerID",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_BrokerPassword",
+            "type": "varchar",
+            "length": 128,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_BrokerWorkingPassword",
+            "type": "varchar",
+            "length": 128,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Passport",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_LastPasswordChangeDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NextReviewDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GB_HomeBranch",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GE_HomeDepartment",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_WorkingLanguage",
+            "type": "varchar",
+            "length": 7,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ResourceType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SecurityCardNumber",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EnterpriseCertificationID",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_LastActivityDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_CommissionBasis",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NextOfKinRelationship",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmergencyContactRelationship",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_LastPasswordAttemptDateTime_Utc",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Gender",
+            "type": "varchar",
+            "length": 1,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsActivityLogged",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ActiveDirectoryObjectGuid",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SystemCreateTimeUtc",
+            "type": "datetime",
+            "length": 8,
+            "numericPrecision": 23,
+            "numericScale": 3
+          },
+          {
+            "name": "GS_SystemCreateUser",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SystemLastEditTimeUtc",
+            "type": "datetime",
+            "length": 8,
+            "numericPrecision": 23,
+            "numericScale": 3
+          },
+          {
+            "name": "GS_SystemLastEditUser",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsActive",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsSalesRep",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsController",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsSystemAccount",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsDeveloper",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PublishWorkPhone",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PublishWorkExtension",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PublishHomePhone",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PublishMobilePhone",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PublishFaxNum",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PublishEmailAddress",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EftWages",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsInTrainingMode",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ChangePasswordAtNextLogin",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PasswordNeverChanges",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsResource",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsValid",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmailAddress",
+            "type": "nvarchar",
+            "length": 508,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_BrokerPasswordStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Code",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_FullName",
+            "type": "nvarchar",
+            "length": 512,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_UserAddress1",
+            "type": "nvarchar",
+            "length": 2048,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_State",
+            "type": "nvarchar",
+            "length": 256,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Postcode",
+            "type": "nvarchar",
+            "length": 80,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Title",
+            "type": "nvarchar",
+            "length": 256,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_FriendlyName",
+            "type": "nvarchar",
+            "length": 160,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_City",
+            "type": "nvarchar",
+            "length": 256,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsOperational",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GB_LastLogonBranch",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GE_LastLogonDepartment",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GC_PreferredPaymentCompany",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsDevice",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PER",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_RN_NKCountryCode",
+            "type": "varchar",
+            "length": 2,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsTwoFactorAuthenticationEnabled",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_CanLogin",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_AddressMap",
+            "type": "varchar",
+            "length": 50,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ValidationStatus",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_RN_NKNationalityCode",
+            "type": "varchar",
+            "length": 2,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_DomainName",
+            "type": "nvarchar",
+            "length": 510,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsDriver",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ActivityTrackingStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PasswordHashIterations",
+            "type": "int",
+            "length": 4,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_EmergencyContactEmail",
+            "type": "nvarchar",
+            "length": 508,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_LastDayOfWork",
+            "type": "date",
+            "length": 3,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_NextOfKinEmail",
+            "type": "nvarchar",
+            "length": 508,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ProbationEndDate",
+            "type": "date",
+            "length": 3,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ResidencyExpiry",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ResidencyStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SavePersonalDataToActiveDirectory",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_IsRobot",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ExternalId",
+            "type": "nvarchar",
+            "length": 508,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_FullNameInMotherLanguage",
+            "type": "nvarchar",
+            "length": 512,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GivenName",
+            "type": "nvarchar",
+            "length": 160,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_MiddleName",
+            "type": "nvarchar",
+            "length": 160,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_PreferredSurname",
+            "type": "nvarchar",
+            "length": 160,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_Surname",
+            "type": "nvarchar",
+            "length": 160,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_GenderCustomTerm",
+            "type": "nvarchar",
+            "length": 100,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SqlLoginPasswordHash",
+            "type": "varbinary",
+            "length": 256,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_ActiveDirectorySid",
+            "type": "varbinary",
+            "length": 85,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SAMAccountFullName",
+            "type": "nvarchar",
+            "length": 256,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SystemCreateBranch",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "GS_SystemCreateDepartment",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          }
+        ],
+        "changes": [
+          {
+            "__$start_lsn": "0x00018E35000091CB0001",
+            "__$seqval": "0x00018E3500009177000D",
+            "__$update_mask": "0x000000000000000004010000000000",
+            "__$lsn_period": 2608,
+            "__$command_id": 1,
+            "__$operation": 3,
+            "data": [
+              {
+                "columnName": "GS_PK",
+                "value": "c8899306-6d85-40c2-befd-e7bf0e1b553c"
+              },
+              {
+                "columnName": "GS_LoginName",
+                "value": "PA8.Fernanda.Silva"
+              },
+              {
+                "columnName": "GS_EmploymentBasis",
+                "value": ""
+              },
+              {
+                "columnName": "GS_NameTitle",
+                "value": ""
+              },
+              {
+                "columnName": "GS_NameSuffix",
+                "value": ""
+              },
+              {
+                "columnName": "GS_UserAddress2",
+                "value": ""
+              },
+              {
+                "columnName": "GS_WorkPhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_WorkExtension",
+                "value": ""
+              },
+              {
+                "columnName": "GS_HomePhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_MobilePhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_Pager",
+                "value": ""
+              },
+              {
+                "columnName": "GS_FaxNum",
+                "value": ""
+              },
+              {
+                "columnName": "GS_Birthdate",
+                "value": "11/01/1984 00:00:00"
+              },
+              {
+                "columnName": "GS_WagesBankName",
+                "value": ""
+              },
+              {
+                "columnName": "GS_WagesBankAccount",
+                "value": ""
+              },
+              {
+                "columnName": "GS_WagesBankBsb",
+                "value": ""
+              },
+              {
+                "columnName": "GS_WagesBankSwift",
+                "value": ""
+              },
+              {
+                "columnName": "GS_NextOfKin",
+                "value": ""
+              },
+              {
+                "columnName": "GS_NextOfKinHomePhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_NextOfKinWorkPhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_EmergencyContactName",
+                "value": ""
+              },
+              {
+                "columnName": "GS_EmergencyHomePhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_EmergencyWorkPhone",
+                "value": ""
+              },
+              {
+                "columnName": "GS_EmploymentDate",
+                "value": "04/01/2020 00:00:00"
+              },
+              {
+                "columnName": "GS_DepartureDate",
+                "value": null
+              },
+              {
+                "columnName": "GS_DueBack",
+                "value": null
+              },
+              {
+                "columnName": "GS_OutOnTask",
+                "value": ""
+              },
+              {
+                "columnName": "GS_PersonalEDIMailBox",
+                "value": ""
+              },
+              {
+                "columnName": "GS_BrokerID",
+                "value": ""
+              },
+              {
+                "columnName": "GS_BrokerPassword",
+                "value": ""
+              },
+              {
+                "columnName": "GS_BrokerWorkingPassword",
+                "value": ""
+              },
+              {
+                "columnName": "GS_Passport",
+                "value": ""
+              },
+              {
+                "columnName": "GS_LastPasswordChangeDate",
+                "value": "03/24/2020 00:00:00"
+              },
+              {
+                "columnName": "GS_NextReviewDate",
+                "value": null
+              },
+              {
+                "columnName": "GS_GB_HomeBranch",
+                "value": "b118b127-1d74-4fa5-a5c7-7746710109ee"
+              },
+              {
+                "columnName": "GS_GE_HomeDepartment",
+                "value": "a6dd8376-ca8f-4c5b-ab1e-f907511b1675"
+              },
+              {
+                "columnName": "GS_WorkingLanguage",
+                "value": "EN"
+              },
+              {
+                "columnName": "GS_ResourceType",
+                "value": ""
+              },
+              {
+                "columnName": "GS_SecurityCardNumber",
+                "value": ""
+              },
+              {
+                "columnName": "GS_EnterpriseCertificationID",
+                "value": ""
+              },
+              {
+                "columnName": "GS_LastActivityDate",
+                "value": "08/24/2026 16:47:00"
+              },
+              {
+                "columnName": "GS_CommissionBasis",
+                "value": ""
+              },
+              {
+                "columnName": "GS_NextOfKinRelationship",
+                "value": ""
+              },
+              {
+                "columnName": "GS_EmergencyContactRelationship",
+                "value": ""
+              },
+              {
+                "columnName": "GS_LastPasswordAttemptDateTime_Utc",
+                "value": null
+              },
+              {
+                "columnName": "GS_Gender",
+                "value": "N"
+              },
+              {
+                "columnName": "GS_IsActivityLogged",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_ActiveDirectoryObjectGuid",
+                "value": "e27ad068-c659-4425-91a8-54314e8724bd"
+              },
+              {
+                "columnName": "GS_SystemCreateTimeUtc",
+                "value": "03/24/2020 19:20:19"
+              },
+              {
+                "columnName": "GS_SystemCreateUser",
+                "value": "EM0"
+              },
+              {
+                "columnName": "GS_SystemLastEditTimeUtc",
+                "value": "08/24/2026 16:46:56"
+              },
+              {
+                "columnName": "GS_SystemLastEditUser",
+                "value": "FSI"
+              },
+              {
+                "columnName": "GS_IsActive",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_IsSalesRep",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_IsController",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_IsSystemAccount",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_IsDeveloper",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PublishWorkPhone",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PublishWorkExtension",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PublishHomePhone",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PublishMobilePhone",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PublishFaxNum",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PublishEmailAddress",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_EftWages",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_IsInTrainingMode",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_ChangePasswordAtNextLogin",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PasswordNeverChanges",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_IsResource",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_IsValid",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_EmailAddress",
+                "value": "fernanda@partnerloggroup.com"
+              },
+              {
+                "columnName": "GS_BrokerPasswordStatus",
+                "value": ""
+              },
+              {
+                "columnName": "GS_Code",
+                "value": "FSI"
+              },
+              {
+                "columnName": "GS_FullName",
+                "value": "Fernanda Silva"
+              },
+              {
+                "columnName": "GS_UserAddress1",
+                "value": "990 BISCAYNE BLVD"
+              },
+              {
+                "columnName": "GS_State",
+                "value": "FL"
+              },
+              {
+                "columnName": "GS_Postcode",
+                "value": "33132"
+              },
+              {
+                "columnName": "GS_Title",
+                "value": "Ocean Import Manager"
+              },
+              {
+                "columnName": "GS_FriendlyName",
+                "value": ""
+              },
+              {
+                "columnName": "GS_City",
+                "value": "MIAMI"
+              },
+              {
+                "columnName": "GS_IsOperational",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_GB_LastLogonBranch",
+                "value": "b118b127-1d74-4fa5-a5c7-7746710109ee"
+              },
+              {
+                "columnName": "GS_GE_LastLogonDepartment",
+                "value": "86bb1c22-0865-4685-996e-d56cbd136491"
+              },
+              {
+                "columnName": "GS_GC_PreferredPaymentCompany",
+                "value": null
+              },
+              {
+                "columnName": "GS_IsDevice",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_PER",
+                "value": "e65a0f97-e231-4283-9120-8fdb891cc147"
+              },
+              {
+                "columnName": "GS_RN_NKCountryCode",
+                "value": "US"
+              },
+              {
+                "columnName": "GS_IsTwoFactorAuthenticationEnabled",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_CanLogin",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_AddressMap",
+                "value": ""
+              },
+              {
+                "columnName": "GS_ValidationStatus",
+                "value": "VAD"
+              },
+              {
+                "columnName": "GS_RN_NKNationalityCode",
+                "value": ""
+              },
+              {
+                "columnName": "GS_DomainName",
+                "value": "wisecloud.zone"
+              },
+              {
+                "columnName": "GS_IsDriver",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_ActivityTrackingStatus",
+                "value": "CMP"
+              },
+              {
+                "columnName": "GS_PasswordHashIterations",
+                "value": "0"
+              },
+              {
+                "columnName": "GS_EmergencyContactEmail",
+                "value": ""
+              },
+              {
+                "columnName": "GS_LastDayOfWork",
+                "value": null
+              },
+              {
+                "columnName": "GS_NextOfKinEmail",
+                "value": ""
+              },
+              {
+                "columnName": "GS_ProbationEndDate",
+                "value": null
+              },
+              {
+                "columnName": "GS_ResidencyExpiry",
+                "value": null
+              },
+              {
+                "columnName": "GS_ResidencyStatus",
+                "value": ""
+              },
+              {
+                "columnName": "GS_SavePersonalDataToActiveDirectory",
+                "value": "True"
+              },
+              {
+                "columnName": "GS_IsRobot",
+                "value": "False"
+              },
+              {
+                "columnName": "GS_ExternalId",
+                "value": ""
+              },
+              {
+                "columnName": "GS_FullNameInMotherLanguage",
+                "value": ""
+              },
+              {
+                "columnName": "GS_GivenName",
+                "value": ""
+              },
+              {
+                "columnName": "GS_MiddleName",
+                "value": ""
+              },
+              {
+                "columnName": "GS_PreferredSurname",
+                "value": ""
+              },
+              {
+                "columnName": "GS_Surname",
+                "value": ""
+              },
+              {
+                "columnName": "GS_GenderCustomTerm",
+                "value": ""
+              },
+              {
+                "columnName": "GS_SqlLoginPasswordHash",
+                "value": null
+              },
+              {
+                "columnName": "GS_ActiveDirectorySid",
+                "value": null
+              },
+              {
+                "columnName": "GS_SAMAccountFullName",
+                "value": ""
+              },
+              {
+                "columnName": "GS_SystemCreateBranch",
+                "value": ""
+              },
+              {
+                "columnName": "GS_SystemCreateDepartment",
+                "value": ""
+              }
+            ]
+          }
+        ],
+        "max_lsn": "AAGRqgABHy0ABQ=="
+      }
+    ]
+  }
+}

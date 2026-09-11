@@ -1,3 +1,9 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="CargoWiseReplicationAPITableGenerator.Tests/CargoWiseReplicationAPITableGenerator.Tests.csproj" Id="92a5baa0-8820-4fbc-a2bd-fdccd5b5a510" />
   <Project Path="CargoWiseReplicationAPITableGenerator/CargoWiseReplicationAPITableGenerator.csproj" />
 </Solution>

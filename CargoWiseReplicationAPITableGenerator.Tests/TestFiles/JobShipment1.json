@@ -1,0 +1,1561 @@
+{
+  "apiVersion": "26.5.26.828",
+  "params": {
+    "schema_name": "dbo",
+    "table_name": "JobShipment",
+    "after_lsn": "0x00018E3400034D2E0003",
+    "page_size": "1"
+  },
+  "data": {
+    "currentItemCount": 1,
+    "itemsPerPage": 1,
+    "nextRequestParams": {
+      "after_lsn": "0x00018E3400034FE10036",
+      "after_seqval": "0x00018E3400034FE10002",
+      "after_command_id": 1,
+      "after_operation": 3
+    },
+    "items": [
+      {
+        "tableDefinitionSchemaVersion": "10120.40",
+        "schemaChangeCount": 1,
+        "primaryKeys": [
+          "JS_PK"
+        ],
+        "columns": [
+          {
+            "name": "JS_PK",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ShipmentStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_UniqueConsignRef",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_InterimReceipt",
+            "type": "varchar",
+            "length": 35,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_CartageWaybill",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_CFSReference",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_AWBServiceLevel",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ConsolReference",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_HouseBill",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_BookingReference",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_A_BKD",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_GoodsDescription",
+            "type": "varchar",
+            "length": 35,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_GoodsValue",
+            "type": "money",
+            "length": 8,
+            "numericPrecision": 19,
+            "numericScale": 4
+          },
+          {
+            "name": "JS_PackingOrder",
+            "type": "int",
+            "length": 4,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ReleaseType",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OA_ExportReceivingDepot",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OA_ImportReleaseDepot",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OH_HandledOnBehalfOfForwarder",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OH_TranshipAgent",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OH_DeliveryAgent",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_A_RCV",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKOrigin",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_E_DEP",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKDestination",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_E_ARV",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ClientRequestedETA",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RS_NKServiceLevel",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_INCO",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_JX",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_TransportMode",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_PackingMode",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ActualVolume",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_DocumentedVolume",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_ManifestedVolume",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_UnitOfVolume",
+            "type": "varchar",
+            "length": 2,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ActualWeight",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_DocumentedWeight",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_ManifestedWeight",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_UnitOfWeight",
+            "type": "varchar",
+            "length": 2,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ActualChargeable",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_DocumentedChargeable",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_ManifestedChargeable",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_UnitFreightRate",
+            "type": "money",
+            "length": 8,
+            "numericPrecision": 19,
+            "numericScale": 4
+          },
+          {
+            "name": "JS_TotalPackageCount",
+            "type": "int",
+            "length": 4,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OuterPacks",
+            "type": "int",
+            "length": 4,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_JS_ColoadMasterShipment",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_JS_SplitSwitchShipment",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_NoOriginalBills",
+            "type": "tinyint",
+            "length": 1,
+            "numericPrecision": 3,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_NoCopyBills",
+            "type": "tinyint",
+            "length": 1,
+            "numericPrecision": 3,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OH_ExportBroker",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_HouseBillOfLadingType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ShippedOnBoard",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ShippedOnBoardDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_HouseBillIssueDate",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_HBLAWBChargesDisplay",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_HBLContainerPackModeOverride",
+            "type": "varchar",
+            "length": 9,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OH_ImportBroker",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_SystemLastEditTimeUtc",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_SystemLastEditUser",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_SystemCreateTimeUtc",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_SystemCreateUser",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ShipperCODAmount",
+            "type": "money",
+            "length": 8,
+            "numericPrecision": 19,
+            "numericScale": 4
+          },
+          {
+            "name": "JS_ShipperCODPayMethod",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_WarehouseLocation",
+            "type": "varchar",
+            "length": 10,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_WL",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RX_NKGoodsValueCurr",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_InsuranceValue",
+            "type": "money",
+            "length": 8,
+            "numericPrecision": 19,
+            "numericScale": 4
+          },
+          {
+            "name": "JS_RX_NKInsuranceCurrency",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_VisibleTabs",
+            "type": "int",
+            "length": 4,
+            "numericPrecision": 10,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ShipmentType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RX_NKFrtRateCurrency",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_Phase",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_AdditionalTerms",
+            "type": "varchar",
+            "length": 50,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_F3_NKTotalCountPackType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_F3_NKPackType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_InvisibleTabsXML",
+            "type": "varchar",
+            "length": -1,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_LoadingMeters",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_DocumentedLoadingMeters",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_ManifestedLoadingMeters",
+            "type": "decimal",
+            "length": 5,
+            "numericPrecision": 9,
+            "numericScale": 3
+          },
+          {
+            "name": "JS_FreightSpotRateAutoratingMode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_FreightCostRate",
+            "type": "money",
+            "length": 8,
+            "numericPrecision": 19,
+            "numericScale": 4
+          },
+          {
+            "name": "JS_RX_NKFreightCostRateCurrency",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_FreightCostRateAutoratingMode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_GatewayFreightSellRate",
+            "type": "money",
+            "length": 8,
+            "numericPrecision": 19,
+            "numericScale": 4
+          },
+          {
+            "name": "JS_RX_NKGatewayFreightSellRateCurrency",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_FreightGatewaySellRateAutoratingMode",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsCancelled",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsNeutralMaster",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsShipping",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsDirectBooking",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsSplitShipment",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsCFSRegistered",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsForwardRegistered",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsBooking",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_TranshipToOtherCFS",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OverrideWaybillDefaults",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsValid",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_Legacy_Support_Columns_Start",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKPlaceOfReceipt",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKPlaceOfDischarge",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_EFreightStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKHouseBillIssuePlace",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_AttachedOrderXMLUpdateCutOffDateUtc",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_TH_OneTimeQuote",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKDischargePort",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKFreightRateDestination",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKFreightRateOrigin",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RL_NKLoadPort",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ScreeningStatus",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsHighRisk",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_PaymentTermAutoratingOverride",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_PL_NKCarrierServiceLevel",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ExportReceivingDepotDispatchRequested",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ExportReceivingDepotReceiptRequested",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ImportReleaseDepotDispatchRequested",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ImportReleaseDepotReceiptRequested",
+            "type": "smalldatetime",
+            "length": 4,
+            "numericPrecision": 16,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_CommunityTransitStatus",
+            "type": "varchar",
+            "length": 5,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OA_BookedShippingLineAddress",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_BookedVesselScreeningStatus",
+            "type": "char",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_CarrierContractNumber",
+            "type": "varchar",
+            "length": 50,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RCA_BookingAllocationLine",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_CompanyTariffLevelOverride",
+            "type": "tinyint",
+            "length": 1,
+            "numericPrecision": 3,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_FMCTariffID",
+            "type": "varchar",
+            "length": 4,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RevisedDeliveryDueDate",
+            "type": "datetimeoffset",
+            "length": 8,
+            "numericPrecision": 26,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RH_NKRateCommodity",
+            "type": "varchar",
+            "length": 4,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_OH_Creditor",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RS_NKGatewayServiceLevel",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ElectronicBillOfLadingReference",
+            "type": "varchar",
+            "length": 255,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ElectronicBillOfLadingStatus",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ElectronicBillOfLadingTerms",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ElectronicBillOfLadingType",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ElectronicBillOfLadingVersion",
+            "type": "smallint",
+            "length": 2,
+            "numericPrecision": 5,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_ElectronicBillOfLadingHouseBill",
+            "type": "varchar",
+            "length": 20,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_SystemCreateBranch",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_SystemCreateDepartment",
+            "type": "varchar",
+            "length": 3,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_RTT_TransitTime",
+            "type": "uniqueidentifier",
+            "length": 16,
+            "numericPrecision": 0,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_DeliveryDueDate",
+            "type": "datetimeoffset",
+            "length": 8,
+            "numericPrecision": 26,
+            "numericScale": 0
+          },
+          {
+            "name": "JS_IsBookingAgentShipment",
+            "type": "bit",
+            "length": 1,
+            "numericPrecision": 1,
+            "numericScale": 0
+          }
+        ],
+        "changes": [
+          {
+            "__$start_lsn": "0x00018E3400034FE10036",
+            "__$seqval": "0x00018E3400034FE10002",
+            "__$update_mask": "0x000000000000000001000200000001000000",
+            "__$lsn_period": 2608,
+            "__$command_id": 1,
+            "__$operation": 3,
+            "data": [
+              {
+                "columnName": "JS_PK",
+                "value": "b450f33d-bb2e-4e38-9cae-ee49183751b6"
+              },
+              {
+                "columnName": "JS_ShipmentStatus",
+                "value": "CNF"
+              },
+              {
+                "columnName": "JS_UniqueConsignRef",
+                "value": "S00027762"
+              },
+              {
+                "columnName": "JS_InterimReceipt",
+                "value": ""
+              },
+              {
+                "columnName": "JS_CartageWaybill",
+                "value": ""
+              },
+              {
+                "columnName": "JS_CFSReference",
+                "value": ""
+              },
+              {
+                "columnName": "JS_AWBServiceLevel",
+                "value": "STD"
+              },
+              {
+                "columnName": "JS_ConsolReference",
+                "value": ""
+              },
+              {
+                "columnName": "JS_HouseBill",
+                "value": "NYC295755"
+              },
+              {
+                "columnName": "JS_BookingReference",
+                "value": ""
+              },
+              {
+                "columnName": "JS_A_BKD",
+                "value": null
+              },
+              {
+                "columnName": "JS_GoodsDescription",
+                "value": "SPRING STEEL"
+              },
+              {
+                "columnName": "JS_GoodsValue",
+                "value": "0.0000"
+              },
+              {
+                "columnName": "JS_PackingOrder",
+                "value": "0"
+              },
+              {
+                "columnName": "JS_ReleaseType",
+                "value": "EBL"
+              },
+              {
+                "columnName": "JS_OA_ExportReceivingDepot",
+                "value": null
+              },
+              {
+                "columnName": "JS_OA_ImportReleaseDepot",
+                "value": null
+              },
+              {
+                "columnName": "JS_OH_HandledOnBehalfOfForwarder",
+                "value": null
+              },
+              {
+                "columnName": "JS_OH_TranshipAgent",
+                "value": null
+              },
+              {
+                "columnName": "JS_OH_DeliveryAgent",
+                "value": null
+              },
+              {
+                "columnName": "JS_A_RCV",
+                "value": null
+              },
+              {
+                "columnName": "JS_RL_NKOrigin",
+                "value": "DEBRV"
+              },
+              {
+                "columnName": "JS_E_DEP",
+                "value": "08/22/2026 00:00:00"
+              },
+              {
+                "columnName": "JS_RL_NKDestination",
+                "value": "USNYC"
+              },
+              {
+                "columnName": "JS_E_ARV",
+                "value": "09/07/2026 19:00:00"
+              },
+              {
+                "columnName": "JS_ClientRequestedETA",
+                "value": null
+              },
+              {
+                "columnName": "JS_RS_NKServiceLevel",
+                "value": "STD"
+              },
+              {
+                "columnName": "JS_INCO",
+                "value": "DDP"
+              },
+              {
+                "columnName": "JS_JX",
+                "value": null
+              },
+              {
+                "columnName": "JS_TransportMode",
+                "value": "SEA"
+              },
+              {
+                "columnName": "JS_PackingMode",
+                "value": "LCL"
+              },
+              {
+                "columnName": "JS_ActualVolume",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JS_DocumentedVolume",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JS_ManifestedVolume",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JS_UnitOfVolume",
+                "value": "M3"
+              },
+              {
+                "columnName": "JS_ActualWeight",
+                "value": "5106.000"
+              },
+              {
+                "columnName": "JS_DocumentedWeight",
+                "value": "5106.000"
+              },
+              {
+                "columnName": "JS_ManifestedWeight",
+                "value": "5106.000"
+              },
+              {
+                "columnName": "JS_UnitOfWeight",
+                "value": "KG"
+              },
+              {
+                "columnName": "JS_ActualChargeable",
+                "value": "5.106"
+              },
+              {
+                "columnName": "JS_DocumentedChargeable",
+                "value": "5.106"
+              },
+              {
+                "columnName": "JS_ManifestedChargeable",
+                "value": "5.106"
+              },
+              {
+                "columnName": "JS_UnitFreightRate",
+                "value": "0.0000"
+              },
+              {
+                "columnName": "JS_TotalPackageCount",
+                "value": "0"
+              },
+              {
+                "columnName": "JS_OuterPacks",
+                "value": "8"
+              },
+              {
+                "columnName": "JS_JS_ColoadMasterShipment",
+                "value": null
+              },
+              {
+                "columnName": "JS_JS_SplitSwitchShipment",
+                "value": null
+              },
+              {
+                "columnName": "JS_NoOriginalBills",
+                "value": "0"
+              },
+              {
+                "columnName": "JS_NoCopyBills",
+                "value": "1"
+              },
+              {
+                "columnName": "JS_OH_ExportBroker",
+                "value": null
+              },
+              {
+                "columnName": "JS_HouseBillOfLadingType",
+                "value": "IAU"
+              },
+              {
+                "columnName": "JS_ShippedOnBoard",
+                "value": "SHP"
+              },
+              {
+                "columnName": "JS_ShippedOnBoardDate",
+                "value": "08/22/2026 18:39:00"
+              },
+              {
+                "columnName": "JS_HouseBillIssueDate",
+                "value": null
+              },
+              {
+                "columnName": "JS_HBLAWBChargesDisplay",
+                "value": "SHW"
+              },
+              {
+                "columnName": "JS_HBLContainerPackModeOverride",
+                "value": ""
+              },
+              {
+                "columnName": "JS_OH_ImportBroker",
+                "value": null
+              },
+              {
+                "columnName": "JS_SystemLastEditTimeUtc",
+                "value": "08/24/2026 16:36:00"
+              },
+              {
+                "columnName": "JS_SystemLastEditUser",
+                "value": "HKE"
+              },
+              {
+                "columnName": "JS_SystemCreateTimeUtc",
+                "value": "07/29/2026 17:24:00"
+              },
+              {
+                "columnName": "JS_SystemCreateUser",
+                "value": "HKE"
+              },
+              {
+                "columnName": "JS_ShipperCODAmount",
+                "value": "0.0000"
+              },
+              {
+                "columnName": "JS_ShipperCODPayMethod",
+                "value": ""
+              },
+              {
+                "columnName": "JS_WarehouseLocation",
+                "value": ""
+              },
+              {
+                "columnName": "JS_WL",
+                "value": null
+              },
+              {
+                "columnName": "JS_RX_NKGoodsValueCurr",
+                "value": "USD"
+              },
+              {
+                "columnName": "JS_InsuranceValue",
+                "value": "0.0000"
+              },
+              {
+                "columnName": "JS_RX_NKInsuranceCurrency",
+                "value": "USD"
+              },
+              {
+                "columnName": "JS_VisibleTabs",
+                "value": "0"
+              },
+              {
+                "columnName": "JS_ShipmentType",
+                "value": "STD"
+              },
+              {
+                "columnName": "JS_RX_NKFrtRateCurrency",
+                "value": ""
+              },
+              {
+                "columnName": "JS_Phase",
+                "value": "ALL"
+              },
+              {
+                "columnName": "JS_AdditionalTerms",
+                "value": "08/28  - ISFok  ETA NYC 09/07"
+              },
+              {
+                "columnName": "JS_F3_NKTotalCountPackType",
+                "value": "CTN"
+              },
+              {
+                "columnName": "JS_F3_NKPackType",
+                "value": "PLT"
+              },
+              {
+                "columnName": "JS_InvisibleTabsXML",
+                "value": null
+              },
+              {
+                "columnName": "JS_LoadingMeters",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JS_DocumentedLoadingMeters",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JS_ManifestedLoadingMeters",
+                "value": "0.000"
+              },
+              {
+                "columnName": "JS_FreightSpotRateAutoratingMode",
+                "value": "STD"
+              },
+              {
+                "columnName": "JS_FreightCostRate",
+                "value": "0.0000"
+              },
+              {
+                "columnName": "JS_RX_NKFreightCostRateCurrency",
+                "value": ""
+              },
+              {
+                "columnName": "JS_FreightCostRateAutoratingMode",
+                "value": "STD"
+              },
+              {
+                "columnName": "JS_GatewayFreightSellRate",
+                "value": "0.0000"
+              },
+              {
+                "columnName": "JS_RX_NKGatewayFreightSellRateCurrency",
+                "value": ""
+              },
+              {
+                "columnName": "JS_FreightGatewaySellRateAutoratingMode",
+                "value": "STD"
+              },
+              {
+                "columnName": "JS_IsCancelled",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsNeutralMaster",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsShipping",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsDirectBooking",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsSplitShipment",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsCFSRegistered",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsForwardRegistered",
+                "value": "True"
+              },
+              {
+                "columnName": "JS_IsBooking",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_TranshipToOtherCFS",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_OverrideWaybillDefaults",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_IsValid",
+                "value": "True"
+              },
+              {
+                "columnName": "JS_Legacy_Support_Columns_Start",
+                "value": "True"
+              },
+              {
+                "columnName": "JS_RL_NKPlaceOfReceipt",
+                "value": ""
+              },
+              {
+                "columnName": "JS_RL_NKPlaceOfDischarge",
+                "value": ""
+              },
+              {
+                "columnName": "JS_EFreightStatus",
+                "value": ""
+              },
+              {
+                "columnName": "JS_RL_NKHouseBillIssuePlace",
+                "value": ""
+              },
+              {
+                "columnName": "JS_AttachedOrderXMLUpdateCutOffDateUtc",
+                "value": null
+              },
+              {
+                "columnName": "JS_TH_OneTimeQuote",
+                "value": null
+              },
+              {
+                "columnName": "JS_RL_NKDischargePort",
+                "value": ""
+              },
+              {
+                "columnName": "JS_RL_NKFreightRateDestination",
+                "value": ""
+              },
+              {
+                "columnName": "JS_RL_NKFreightRateOrigin",
+                "value": ""
+              },
+              {
+                "columnName": "JS_RL_NKLoadPort",
+                "value": ""
+              },
+              {
+                "columnName": "JS_ScreeningStatus",
+                "value": "NOT"
+              },
+              {
+                "columnName": "JS_IsHighRisk",
+                "value": "False"
+              },
+              {
+                "columnName": "JS_PaymentTermAutoratingOverride",
+                "value": "CCX"
+              },
+              {
+                "columnName": "JS_PL_NKCarrierServiceLevel",
+                "value": ""
+              },
+              {
+                "columnName": "JS_ExportReceivingDepotDispatchRequested",
+                "value": null
+              },
+              {
+                "columnName": "JS_ExportReceivingDepotReceiptRequested",
+                "value": null
+              },
+              {
+                "columnName": "JS_ImportReleaseDepotDispatchRequested",
+                "value": null
+              },
+              {
+                "columnName": "JS_ImportReleaseDepotReceiptRequested",
+                "value": null
+              },
+              {
+                "columnName": "JS_CommunityTransitStatus",
+                "value": ""
+              },
+              {
+                "columnName": "JS_OA_BookedShippingLineAddress",
+                "value": null
+              },
+              {
+                "columnName": "JS_BookedVesselScreeningStatus",
+                "value": "NOT"
+              },
+              {
+                "columnName": "JS_CarrierContractNumber",
+                "value": null
+              },
+              {
+                "columnName": "JS_RCA_BookingAllocationLine",
+                "value": null
+              },
+              {
+                "columnName": "JS_CompanyTariffLevelOverride",
+                "value": "0"
+              },
+              {
+                "columnName": "JS_FMCTariffID",
+                "value": ""
+              },
+              {
+                "columnName": "JS_RevisedDeliveryDueDate",
+                "value": null
+              },
+              {
+                "columnName": "JS_RH_NKRateCommodity",
+                "value": ""
+              },
+              {
+                "columnName": "JS_OH_Creditor",
+                "value": null
+              },
+              {
+                "columnName": "JS_RS_NKGatewayServiceLevel",
+                "value": ""
+              },
+              {
+                "columnName": "JS_ElectronicBillOfLadingReference",
+                "value": ""
+              },
+              {
+                "columnName": "JS_ElectronicBillOfLadingStatus",
+                "value": ""
+              },
+              {
+                "columnName": "JS_ElectronicBillOfLadingTerms",
+                "value": "NTR"
+              },
+              {
+                "columnName": "JS_ElectronicBillOfLadingType",
+                "value": "STR"
+              },
+              {
+                "columnName": "JS_ElectronicBillOfLadingVersion",
+                "value": "0"
+              },
+              {
+                "columnName": "JS_ElectronicBillOfLadingHouseBill",
+                "value": "NYC295755"
+              },
+              {
+                "columnName": "JS_SystemCreateBranch",
+                "value": "MIA"
+              },
+              {
+                "columnName": "JS_SystemCreateDepartment",
+                "value": "BRN"
+              },
+              {
+                "columnName": "JS_RTT_TransitTime",
+                "value": null
+              },
+              {
+                "columnName": "JS_DeliveryDueDate",
+                "value": null
+              },
+              {
+                "columnName": "JS_IsBookingAgentShipment",
+                "value": "False"
+              }
+            ]
+          }
+        ],
+        "max_lsn": "AAGRqQADS00ACA=="
+      }
+    ]
+  }
+}

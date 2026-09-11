@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace CargoWiseReplicationAPIInterface.Models.Changes
+namespace CargoWiseReplicationAPITableGenerator.Models.Changes
 {
 	public class ChangesDataItems
 	{
