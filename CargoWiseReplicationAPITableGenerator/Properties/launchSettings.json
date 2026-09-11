@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "CargoWiseReplicationAPITableGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "csharp -i testinput.json -n test -o ./",
+      "workingDirectory": "C:\\Users\\Kristian\\Downloads"
+    }
+  }
+}
