@@ -1,0 +1,58 @@
+name: Build and Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    name: Build and Test
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal
+
+  build-release:
+    needs: build-test
+    runs-on: ubuntu-latest
+    name: Create Release
+    permissions:
+      id-token: write
+      packages: write
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+          
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: NuGet login
+        uses: NuGet/login@v1
+        id: login_nuget
+        with:
+          user: kris701
+
+      - name: Build (Release) [CargoWiseReplicationAPITableGenerator]
+        run: |  
+          cd CargoWiseReplicationAPITableGenerator
+          dotnet build --configuration Release
+          dotnet pack --configuration Release
+          cd ..
+
+      - name: Publish (Github) [CargoWiseReplicationAPITableGenerator]
+        run: dotnet nuget push "CargoWiseReplicationAPITableGenerator/bin/Release/*.nupkg" --source "https://nuget.pkg.github.com/kris701/index.json" --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate
+
+      - name: Publish (NuGet) [CargoWiseReplicationAPITableGenerator]
+        run: dotnet nuget push "CargoWiseReplicationAPITableGenerator/bin/Release/*.nupkg" --source "https://api.nuget.org/v3/index.json" --api-key ${{ steps.login_nuget.outputs.NUGET_API_KEY }} --skip-duplicate
+
