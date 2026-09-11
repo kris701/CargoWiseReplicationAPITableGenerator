@@ -2,11 +2,11 @@
     <img src="https://github.com/user-attachments/assets/47207406-db16-4703-82a1-f3cab59da1f9" width="200" height="200" />
 </p>
 
-[![Build and Publish](https://github.com/kris701/CargoWiseReportTemplateCreator/actions/workflows/dotnet.yml/badge.svg)](https://github.com/kris701/CargoWiseReportTemplateCreator/actions/workflows/dotnet.yml)
-![Nuget](https://img.shields.io/nuget/v/CargoWiseReportTemplateCreator)
-![Nuget](https://img.shields.io/nuget/dt/CargoWiseReportTemplateCreator)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/kris701/CargoWiseReportTemplateCreator/main)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/kris701/CargoWiseReportTemplateCreator)
+[![Build and Publish](https://github.com/kris701/CargoWiseReplicationAPITableGenerator/actions/workflows/dotnet.yml/badge.svg)](https://github.com/kris701/CargoWiseReplicationAPITableGenerator/actions/workflows/dotnet.yml)
+![Nuget](https://img.shields.io/nuget/v/CargoWiseReplicationAPITableGenerator)
+![Nuget](https://img.shields.io/nuget/dt/CargoWiseReplicationAPITableGenerator)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/kris701/CargoWiseReplicationAPITableGenerator/main)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/kris701/CargoWiseReplicationAPITableGenerator)
 ![Static Badge](https://img.shields.io/badge/Platform-Windows-blue)
 ![Static Badge](https://img.shields.io/badge/Platform-Linux-blue)
 ![Static Badge](https://img.shields.io/badge/Framework-dotnet--10.0-green)
