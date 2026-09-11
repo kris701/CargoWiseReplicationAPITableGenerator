@@ -1,11 +1,7 @@
-﻿using CargoWiseReplicationAPITableGenerator.Generators;
-using CargoWiseReplicationAPITableGenerator.Models;
-using CargoWiseReplicationAPITableGenerator.Models.Changes;
-using CargoWiseReplicationAPITableGenerator.Models.Options;
+﻿using CargoWiseReplicationAPITableGenerator.Models.Options;
 using CargoWiseReplicationAPITableGenerator.Programs;
 using CommandLine;
 using CommandLine.Text;
-using System.Text.Json;
 
 namespace CargoWiseReportTemplateCreator
 {

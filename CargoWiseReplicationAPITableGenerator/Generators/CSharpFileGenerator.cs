@@ -1,6 +1,4 @@
 ﻿using CargoWiseReplicationAPITableGenerator.Models.Changes;
-using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace CargoWiseReplicationAPITableGenerator.Generators
@@ -17,7 +15,7 @@ namespace CargoWiseReplicationAPITableGenerator.Generators
 			sb.AppendLine($"{{");
 			sb.AppendLine($"\tpublic class {tableName}");
 			sb.AppendLine($"\t{{");
-			foreach(var column in columns)
+			foreach (var column in columns)
 				sb.AppendLine($"\t\tpublic {APITypeToCSharpType(column.Type)} {column.Name} {{ get; set; }}");
 			sb.AppendLine($"\t}}");
 			sb.AppendLine($"}}");
@@ -29,9 +27,9 @@ namespace CargoWiseReplicationAPITableGenerator.Generators
 		{
 			switch (type.ToLower())
 			{
-				case "uniqueidentifier": 
+				case "uniqueidentifier":
 					return "Guid";
-				case "nvarchar": 
+				case "nvarchar":
 				case "varchar":
 				case "char":
 					return "string";

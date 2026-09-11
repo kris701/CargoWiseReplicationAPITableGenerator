@@ -1,7 +1,4 @@
 ﻿using CargoWiseReplicationAPITableGenerator.Models.Changes;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CargoWiseReplicationAPITableGenerator.Generators
 {

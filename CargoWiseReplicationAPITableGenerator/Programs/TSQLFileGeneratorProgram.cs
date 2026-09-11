@@ -1,9 +1,6 @@
 ﻿using CargoWiseReplicationAPITableGenerator.Generators;
 using CargoWiseReplicationAPITableGenerator.Helpers;
 using CargoWiseReplicationAPITableGenerator.Models.Options;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CargoWiseReplicationAPITableGenerator.Programs
 {
